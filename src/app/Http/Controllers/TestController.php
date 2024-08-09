@@ -10,4 +10,10 @@ class TestController extends Controller
   {
     return view('index');
   }
+
+  public function login(Request $request)
+  {
+    $test = $request->only(['name', 'email', 'password']);
+    return view('login', ['test' => $test]);
+  }
 }
