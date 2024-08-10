@@ -43,6 +43,7 @@ a{
     color: #8B7969;
     margin-bottom: 40px;
     text-align: center;
+    font-weight: normal;
 }
 
 .form {
@@ -59,6 +60,7 @@ a{
 
 .form__label--item {
     color:#82756A;
+    text-align: center;
 }
 
 .form__label--required {
